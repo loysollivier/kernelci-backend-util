@@ -17,7 +17,7 @@ def print_error_msg(status_code):
     print 'Error in request, return code: {}'.format(status_code)
 
 def get_token_from_oid(oid):
-    url = BACKEND_URL + "/token" 
+    url = BACKEND_URL + "/token"
     payload = {
         "_id": oid,
     }
